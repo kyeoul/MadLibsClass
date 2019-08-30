@@ -23,7 +23,7 @@
         android:layout_alignParentTop="true"
         android:text="Player:"
         android:layout_marginTop="100dp"
-        android:layout_marginStart="30dp"/>
+        android:layout_marginStart="@dimen/margin"/>
 
     <TextView
         android:id="@+id/adjectiveText"
@@ -34,7 +34,7 @@
         android:layout_alignTop="@id/playerText"
         android:text="Adjective:"
         android:layout_marginTop="60dp"
-        android:layout_marginStart="30dp"/>
+        android:layout_marginStart="@dimen/margin"/>
 
     <TextView
         android:id="@+id/skillText"
@@ -45,7 +45,7 @@
         android:layout_alignTop="@id/adjectiveText"
         android:text="Skill:"
         android:layout_marginTop="60dp"
-        android:layout_marginStart="30dp"/>
+        android:layout_marginStart="@dimen/margin"/>
 
     <TextView
         android:id="@+id/nounText"
@@ -56,7 +56,7 @@
         android:layout_alignTop="@id/skillText"
         android:text="Noun:"
         android:layout_marginTop="60dp"
-        android:layout_marginStart="30dp"/>
+        android:layout_marginStart="@dimen/margin"/>
 
     <TextView
         android:id="@+id/skillText2"
@@ -67,7 +67,7 @@
         android:layout_alignTop="@id/nounText"
         android:text="Skill:"
         android:layout_marginTop="60dp"
-        android:layout_marginStart="30dp"/>
+        android:layout_marginStart="@dimen/margin"/>
 
     <TextView
         android:id="@+id/playerText2"
@@ -78,7 +78,7 @@
         android:layout_alignTop="@id/skillText2"
         android:text="Player 2:"
         android:layout_marginTop="60dp"
-        android:layout_marginStart="30dp"/>
+        android:layout_marginStart="@dimen/margin"/>
 
     <TextView
         android:id="@+id/playerText3"
@@ -89,7 +89,7 @@
         android:layout_alignTop="@id/playerText2"
         android:text="Player 3:"
         android:layout_marginTop="60dp"
-        android:layout_marginStart="30dp"/>
+        android:layout_marginStart="@dimen/margin"/>
 
     <Button
         android:layout_width="200dp"
@@ -98,11 +98,12 @@
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="90dp"
         android:text="Submit"
-        android:background="@android:color/transparent"/>
+        android:background="@android:color/transparent"
+        android:onClick="sendText"/>
     
     <EditText
         android:id="@+id/playerEditText"
-        android:layout_width="100dp"
+        android:layout_width="@dimen/editTextWidth"
         android:layout_height="wrap_content"
         android:layout_marginTop="90dp"
         android:layout_alignParentEnd="true"
@@ -111,8 +112,9 @@
         android:hint="Player"/>
 
     <EditText
+        android:theme="@style/AppTheme2"
         android:id="@+id/adjEditText"
-        android:layout_width="100dp"
+        android:layout_width="@dimen/editTextWidth"
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
         android:layout_alignTop="@+id/playerEditText"
@@ -122,8 +124,9 @@
         android:hint="Adjective"/>
 
     <EditText
+        android:theme="@style/AppTheme2"
         android:id="@+id/skillEditText"
-        android:layout_width="100dp"
+        android:layout_width="@dimen/editTextWidth"
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
         android:layout_alignTop="@+id/adjEditText"
@@ -133,8 +136,9 @@
         android:hint="Skill"/>
 
     <EditText
+        android:theme="@style/AppTheme2"
         android:id="@+id/nounEditText"
-        android:layout_width="100dp"
+        android:layout_width="@dimen/editTextWidth"
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
         android:layout_alignTop="@+id/skillEditText"
@@ -144,8 +148,9 @@
         android:hint="Noun"/>
 
     <EditText
+        android:theme="@style/AppTheme2"
         android:id="@+id/skillEditText2"
-        android:layout_width="100dp"
+        android:layout_width="@dimen/editTextWidth"
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
         android:layout_alignTop="@+id/nounEditText"
@@ -155,8 +160,9 @@
         android:hint="Skill"/>
 
     <EditText
+        android:theme="@style/AppTheme2"
         android:id="@+id/playerEditText2"
-        android:layout_width="100dp"
+        android:layout_width="@dimen/editTextWidth"
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
         android:layout_alignTop="@+id/skillEditText2"
@@ -166,8 +172,9 @@
         android:hint="Player"/>
 
     <EditText
+        android:theme="@style/AppTheme2"
         android:id="@+id/playerEditText3"
-        android:layout_width="100dp"
+        android:layout_width="@dimen/editTextWidth"
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/playerEditText2"
         android:layout_marginTop="60dp"
