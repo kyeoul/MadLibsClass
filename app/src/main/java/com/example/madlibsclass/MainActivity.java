@@ -21,20 +21,23 @@ public class MainActivity extends AppCompatActivity {
         ArrayList<EditText> editTextArray = new ArrayList<EditText>();
         editTextArray.add((EditText) findViewById(R.id.playerEditText));
         editTextArray.add((EditText) findViewById(R.id.adjEditText)) ;
+        editTextArray.add((EditText) findViewById(R.id.somethingerEditText));
         editTextArray.add((EditText) findViewById(R.id.skillEditText));
         editTextArray.add((EditText) findViewById(R.id.skillEditText2));
         editTextArray.add((EditText) findViewById(R.id.nounEditText));
         editTextArray.add((EditText) findViewById(R.id.playerEditText2));
         editTextArray.add((EditText) findViewById(R.id.playerEditText3));
 
-        String myMessage = "Excuse me? " + editTextArray.get(0).toString() + " is bad? I'll have you know that ";
+        String myMessage = "Excuse me? " + editTextArray.get(0).getText().toString() + " is bad? I'll have you know that ";
         myMessage += editTextArray.get(0).getText().toString() + " is the most ";
-        myMessage += editTextArray.get(1).getText().toString() + " player in the whole school. His ";
-        myMessage += editTextArray.get(2).getText().toString() + " and ";
-        myMessage += editTextArray.get(3).getText().toString() + " is something we should be glad to witness. ";
-        myMessage += editTextArray.get(4).getText().toString() + "breaks the records. " + editTextArray.get(5).getText().toString() + " breaks the records. ";
-        myMessage += editTextArray.get(6).getText().toString() + " breaks the rules.";
-        myMessage += "You can keep your statistics. I prefer the magic.";
+        myMessage += editTextArray.get(1).getText().toString();
+        myMessage += editTextArray.get(2).getText().toString() + " in the whole school. His ";
+        myMessage += editTextArray.get(3).getText().toString() + " and ";
+        myMessage += editTextArray.get(4).getText().toString() + " with the ";
+        myMessage += editTextArray.get(5).getText().toString() + " is something we should be glad to witness. ";
+        myMessage += editTextArray.get(6).getText().toString() + " breaks the records. " + editTextArray.get(7).getText().toString() + " breaks the records. ";
+        myMessage += editTextArray.get(0).getText().toString() + " breaks the rules.";
+        myMessage += " You can keep your statistics. I prefer the magic.";
 
         Intent intent = new Intent(this, MadLibsActivity.class);
         intent.putExtra(MadLibsActivity.MY_MESSAGE, myMessage);
