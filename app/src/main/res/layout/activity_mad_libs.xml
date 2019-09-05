@@ -4,9 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MadLibsActivity">
+    tools:context=".MadLibsActivity"
+    android:id="@+id/relativeLayout">
 
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Here's your results."
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin"/>
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
@@ -15,8 +24,20 @@
         android:layout_height="wrap_content"
         android:text="Filler"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="@dimen/margin"
+        android:layout_marginTop="100dp"
         android:textSize="20sp"
         android:textColor="#03A9F4"
         android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share with people"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="@dimen/margin"
+        android:layout_marginEnd="@dimen/margin"
+        android:background="@drawable/gradient_animation"
+        android:onClick="onClick"/>
 </RelativeLayout>

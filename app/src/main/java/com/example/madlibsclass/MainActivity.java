@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
         String myMessage = "Excuse me? " + editTextArray.get(0).getText().toString() + " is bad? I'll have you know that ";
         myMessage += editTextArray.get(0).getText().toString() + " is the most ";
-        myMessage += editTextArray.get(1).getText().toString();
+        myMessage += editTextArray.get(1).getText().toString() + " ";
         myMessage += editTextArray.get(2).getText().toString() + " in the whole school. His ";
         myMessage += editTextArray.get(3).getText().toString() + " and ";
         myMessage += editTextArray.get(4).getText().toString() + " with the ";

@@ -44,7 +44,7 @@
         android:layout_alignParentStart="true"
         android:layout_marginStart="@dimen/margin"
         android:layout_marginTop="60dp"
-        android:text="Noun"
+        android:text="Occupation:"
         android:textSize="20dp" />
 
     <TextView
@@ -76,7 +76,7 @@
         android:textSize="20sp"
         android:layout_alignParentStart="true"
         android:layout_alignTop="@id/nounText"
-        android:text="Noun:"
+        android:text="Thing:"
         android:layout_marginTop="60dp"
         android:layout_marginStart="@dimen/margin"/>
 
@@ -122,7 +122,7 @@
         android:layout_marginEnd="@dimen/margin"
         android:textSize="20sp"
         android:hint="A name"
-        android:inputType="textPersonName"/>
+        android:inputType="textCapWords"/>
 
     <EditText
         android:theme="@style/AppTheme2"
@@ -134,7 +134,8 @@
         android:layout_alignParentEnd="true"
         android:layout_marginEnd="@dimen/margin"
         android:textSize="20sp"
-        android:hint="Adjective"/>
+        android:hint="Adjective"
+        android:inputType="text"/>
 
     <EditText
         android:layout_width="@dimen/editTextWidth"
@@ -145,7 +146,8 @@
         android:layout_alignTop="@+id/adjEditText"
         android:layout_alignParentEnd="true"
         android:layout_marginEnd="@dimen/margin"
-        android:layout_marginTop="60dp"/>
+        android:layout_marginTop="60dp"
+        android:inputType="text"/>
 
     <EditText
         android:theme="@style/AppTheme2"
@@ -157,7 +159,8 @@
         android:layout_alignParentEnd="true"
         android:layout_marginEnd="@dimen/margin"
         android:textSize="20sp"
-        android:hint="i.e. control"/>
+        android:hint="i.e. control"
+        android:inputType="text"/>
 
     <EditText
         android:theme="@style/AppTheme2"
@@ -169,7 +172,8 @@
         android:layout_alignParentEnd="true"
         android:layout_marginEnd="@dimen/margin"
         android:textSize="20sp"
-        android:hint="i.e. speed"/>
+        android:hint="i.e. speed"
+        android:inputType="text"/>
 
     <EditText
         android:theme="@style/AppTheme2"
@@ -181,7 +185,8 @@
         android:layout_alignParentEnd="true"
         android:layout_marginEnd="@dimen/margin"
         android:textSize="20sp"
-        android:hint="Tennis"/>
+        android:hint="Tennis ball"
+        android:inputType="text"/>
 
     <EditText
         android:theme="@style/AppTheme2"
@@ -194,7 +199,7 @@
         android:layout_marginEnd="@dimen/margin"
         android:textSize="20sp"
         android:hint="Another name"
-        android:inputType="textPersonName"/>
+        android:inputType="textCapWords"/>
 
     <EditText
         android:theme="@style/AppTheme2"
@@ -207,6 +212,6 @@
         android:layout_marginEnd="@dimen/margin"
         android:textSize="20sp"
         android:hint="More name"
-        android:inputType="textPersonName"/>
+        android:inputType="textCapWords"/>
 
 </RelativeLayout>
