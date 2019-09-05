@@ -39,5 +39,6 @@
         android:layout_marginBottom="@dimen/margin"
         android:layout_marginEnd="@dimen/margin"
         android:background="@drawable/gradient_animation"
-        android:onClick="onClick"/>
+        android:onClick="onClick"
+        android:padding="10dp"/>
 </RelativeLayout>
