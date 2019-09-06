@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="@color/colorAccent">
+    android:background="@color/background_color">
 
     <TextView
         android:layout_width="wrap_content"
@@ -13,7 +13,8 @@
         android:text="wow its madlibs"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp"
-        android:textSize="20sp"/>
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"/>
 
     <TextView
         android:id="@+id/playerText"
@@ -24,7 +25,8 @@
         android:layout_alignParentTop="true"
         android:text="Person:"
         android:layout_marginTop="100dp"
-        android:layout_marginStart="@dimen/margin"/>
+        android:layout_marginStart="@dimen/margin"
+        android:textColor="#FFFFFF"/>
 
     <TextView
         android:id="@+id/adjectiveText"
@@ -35,7 +37,8 @@
         android:layout_alignTop="@id/playerText"
         android:text="Adjective:"
         android:layout_marginTop="60dp"
-        android:layout_marginStart="@dimen/margin"/>
+        android:layout_marginStart="@dimen/margin"
+        android:textColor="#FFFFFF"/>
 
     <TextView
         android:id="@+id/somethingerText"
@@ -46,7 +49,8 @@
         android:layout_marginStart="@dimen/margin"
         android:layout_marginTop="60dp"
         android:text="Occupation:"
-        android:textSize="20dp" />
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"/>
 
     <TextView
         android:id="@+id/skillText"
@@ -57,7 +61,8 @@
         android:layout_alignTop="@id/somethingerText"
         android:text="Skill:"
         android:layout_marginTop="60dp"
-        android:layout_marginStart="@dimen/margin"/>
+        android:layout_marginStart="@dimen/margin"
+        android:textColor="#FFFFFF"/>
 
     <TextView
         android:id="@+id/nounText"
@@ -68,7 +73,8 @@
         android:layout_alignTop="@id/skillText"
         android:text="Skill:"
         android:layout_marginTop="60dp"
-        android:layout_marginStart="@dimen/margin"/>
+        android:layout_marginStart="@dimen/margin"
+        android:textColor="#FFFFFF"/>
 
     <TextView
         android:id="@+id/skillText2"
@@ -79,7 +85,8 @@
         android:layout_alignTop="@id/nounText"
         android:text="Thing:"
         android:layout_marginTop="60dp"
-        android:layout_marginStart="@dimen/margin"/>
+        android:layout_marginStart="@dimen/margin"
+        android:textColor="#FFFFFF"/>
 
     <TextView
         android:id="@+id/playerText2"
@@ -90,7 +97,8 @@
         android:layout_alignTop="@id/skillText2"
         android:text="Person 2:"
         android:layout_marginTop="60dp"
-        android:layout_marginStart="@dimen/margin"/>
+        android:layout_marginStart="@dimen/margin"
+        android:textColor="#FFFFFF"/>
 
     <TextView
         android:id="@+id/playerText3"
@@ -101,7 +109,8 @@
         android:layout_alignTop="@id/playerText2"
         android:text="Person 3:"
         android:layout_marginTop="60dp"
-        android:layout_marginStart="@dimen/margin"/>
+        android:layout_marginStart="@dimen/margin"
+        android:textColor="#FFFFFF"/>
 
     <Button
         android:layout_width="200dp"
@@ -111,7 +120,8 @@
         android:layout_marginTop="90dp"
         android:text="Submit"
         android:background="@android:color/transparent"
-        android:onClick="sendText"/>
+        android:onClick="sendText"
+        android:textColor="#00BCD4"/>
     
     <EditText
         android:theme="@style/AppTheme2"
@@ -123,7 +133,8 @@
         android:layout_marginEnd="@dimen/margin"
         android:textSize="20sp"
         android:hint="A name"
-        android:inputType="textCapWords"/>
+        android:inputType="textCapWords"
+        android:textColor="#FFFFFF"/>
 
     <EditText
         android:theme="@style/AppTheme2"
@@ -136,7 +147,8 @@
         android:layout_marginEnd="@dimen/margin"
         android:textSize="20sp"
         android:hint="Adjective"
-        android:inputType="text"/>
+        android:inputType="text"
+        android:textColor="#FFFFFF"/>
 
     <EditText
         android:layout_width="@dimen/editTextWidth"
@@ -148,7 +160,8 @@
         android:layout_alignParentEnd="true"
         android:layout_marginEnd="@dimen/margin"
         android:layout_marginTop="60dp"
-        android:inputType="text"/>
+        android:inputType="text"
+        android:textColor="#FFFFFF"/>
 
     <EditText
         android:theme="@style/AppTheme2"
@@ -161,7 +174,8 @@
         android:layout_marginEnd="@dimen/margin"
         android:textSize="20sp"
         android:hint="i.e. control"
-        android:inputType="text"/>
+        android:inputType="text"
+        android:textColor="#FFFFFF"/>
 
     <EditText
         android:theme="@style/AppTheme2"
@@ -174,7 +188,8 @@
         android:layout_marginEnd="@dimen/margin"
         android:textSize="20sp"
         android:hint="i.e. speed"
-        android:inputType="text"/>
+        android:inputType="text"
+        android:textColor="#FFFFFF"/>
 
     <EditText
         android:theme="@style/AppTheme2"
@@ -187,7 +202,8 @@
         android:layout_marginEnd="@dimen/margin"
         android:textSize="20sp"
         android:hint="Tennis ball"
-        android:inputType="text"/>
+        android:inputType="text"
+        android:textColor="#FFFFFF"/>
 
     <EditText
         android:theme="@style/AppTheme2"
@@ -200,7 +216,8 @@
         android:layout_marginEnd="@dimen/margin"
         android:textSize="20sp"
         android:hint="Another name"
-        android:inputType="textCapWords"/>
+        android:inputType="textCapWords"
+        android:textColor="#FFFFFF"/>
 
     <EditText
         android:theme="@style/AppTheme2"
@@ -213,6 +230,7 @@
         android:layout_marginEnd="@dimen/margin"
         android:textSize="20sp"
         android:hint="More name"
-        android:inputType="textCapWords"/>
+        android:inputType="textCapWords"
+        android:textColor="#FFFFFF"/>
 
 </RelativeLayout>
