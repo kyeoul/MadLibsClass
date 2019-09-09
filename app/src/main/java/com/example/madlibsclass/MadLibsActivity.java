@@ -27,7 +27,7 @@ public class MadLibsActivity extends AppCompatActivity {
         textView.setText(myMessage);
 
         AnimationDrawable animation = (AnimationDrawable) button.getBackground();
-        animation.setEnterFadeDuration(10);
+        //animation.setEnterFadeDuration(10);
         animation.setExitFadeDuration(5000);
         animation.start();
     }

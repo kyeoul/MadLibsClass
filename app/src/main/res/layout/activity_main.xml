@@ -124,7 +124,7 @@
         android:textColor="#00BCD4"/>
     
     <EditText
-        android:theme="@style/AppTheme2"
+
         android:id="@+id/playerEditText"
         android:layout_width="@dimen/editTextWidth"
         android:layout_height="wrap_content"
@@ -137,7 +137,6 @@
         android:textColor="#FFFFFF"/>
 
     <EditText
-        android:theme="@style/AppTheme2"
         android:id="@+id/adjEditText"
         android:layout_width="@dimen/editTextWidth"
         android:layout_height="wrap_content"
@@ -153,7 +152,6 @@
     <EditText
         android:layout_width="@dimen/editTextWidth"
         android:layout_height="wrap_content"
-        android:theme="@style/AppTheme2"
         android:id="@+id/somethingerEditText"
         android:hint="i.e. Player"
         android:layout_alignTop="@+id/adjEditText"
@@ -164,7 +162,6 @@
         android:textColor="#FFFFFF"/>
 
     <EditText
-        android:theme="@style/AppTheme2"
         android:id="@+id/skillEditText"
         android:layout_width="@dimen/editTextWidth"
         android:layout_height="wrap_content"
